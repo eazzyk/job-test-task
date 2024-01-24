@@ -1,0 +1,27 @@
+.header__container {
+  display: flex;
+  align-items: center;
+  // justify-content: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.header__logo {
+  margin-right: 154px;
+}
+.header__nav {
+  display: flex;
+  margin-right: 155px;
+  gap: 100px;
+}
+.header__contacts {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header__socials {
+  display: flex;
+  gap: 12px;
+  // margin-right: 40px;
+}
+.header__tel {
+}
