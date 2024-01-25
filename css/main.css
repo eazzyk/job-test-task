@@ -313,6 +313,27 @@ template {
   display: none;
 }
 
+@font-face {
+  font-family: "ProximaNovaBlack";
+  src: url("../../fonts/ProximaNovaBlack.eot");
+  src: url("../../fonts/ProximaNovaBlack.eot?#iefix") format("embedded-opentype"), url("../../fonts/ProximaNovaBlack.woff") format("woff"), url("../../fonts/ProximaNovaBlack.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "ProximaNovaBold";
+  src: url("../../fonts/ProximaNovaBold.eot");
+  src: url("../../fonts/ProximaNovaBold.eot?#iefix") format("embedded-opentype"), url("../../fonts/ProximaNovaBold.woff") format("woff"), url("../../fonts/ProximaNovaBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "ProximaNovaRegular";
+  src: url("../../fonts/ProximaNovaRegular.eot");
+  src: url("../../fonts/ProximaNovaBlack.eot?#iefix") format("embedded-opentype"), url("../../fonts/ProximaNovaRegular.woff") format("woff"), url("../../fonts/ProximaNovaRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
 body {
   margin: 0;
   font-family: "ProximaNovaRegular", sans-serif;
@@ -355,27 +376,6 @@ button {
   cursor: pointer;
 }
 
-@font-face {
-  font-family: "ProximaNovaBlack";
-  src: url("../../fonts/ProximaNovaBlack/ProximaNovaBlack.eot");
-  src: url("../../fonts/ProximaNovaBlack/ProximaNovaBlack.eot?#iefix") format("embedded-opentype"), url("../../fonts/ProximaNovaBlack/ProximaNovaBlack.woff") format("woff"), url("../../fonts/ProximaNovaBlack/ProximaNovaBlack.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
-@font-face {
-  font-family: "ProximaNovaBold";
-  src: url("../../fonts/ProximaNovaBold/ProximaNovaBold.eot");
-  src: url("../../fonts/ProximaNovaBold/ProximaNovaBold.eot?#iefix") format("embedded-opentype"), url("../../fonts/ProximaNovaBold/ProximaNovaBold.woff") format("woff"), url("../../fonts/ProximaNovaBold/ProximaNovaBold.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
-@font-face {
-  font-family: "ProximaNovaRegular";
-  src: url("../../fonts/ProximaNovaRegular//ProximaNovaRegular.eot");
-  src: url("../../fonts/ProximaNovaRegular//ProximaNovaRegular.eot?#iefix") format("embedded-opentype"), url("../../fonts/ProximaNovaRegular//ProximaNovaRegular.woff") format("woff"), url("../../fonts/ProximaNovaRegular/ProximaNovaRegular.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
 :root {
   --main-color: #fffefc;
   --grad: linear-gradient(327deg, #e09b3d 0%, #c74c4d 30%, #c21975 60%, #7024c4 100%);
@@ -387,11 +387,6 @@ button {
 *::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-body {
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
 }
 
 .header__block {
