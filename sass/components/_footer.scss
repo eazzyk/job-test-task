@@ -13,10 +13,45 @@
   }
 }
 
-.footer__socials {
-  margin-top: 20px;
-  display: flex;
-  gap: 25px;
+.footer__social {
+  &--head {
+    margin-bottom: 30px;
+
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  &--box {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+
+  &--tel {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  &--tel2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  &--mail {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  &--list {
+    margin-top: 20px;
+    display: flex;
+    gap: 45px;
+  }
 }
 
 .footer__box {
@@ -29,43 +64,41 @@
   // margin-left: 146px;
 }
 .footer__adress {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  text-decoration: none;
-  font-style: normal;
+  &--head {
+    margin-bottom: 30px;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+
+  &--link {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  &--gps {
+    color: white;
+    font-size: 20px;
+
+    font-weight: 400;
+    line-height: 30px;
+  }
 }
 
-.footer__startups {
-  // margin-left: auto;
-}
-.right-box {
-  display: flex;
-  gap: 142px;
-}
-
-.tel__boxxx {
-  display: flex;
-  gap: 8px;
-}
-
-.footer__second--box {
-  display: flex;
-  margin-left: auto;
-  gap: 141px;
-}
-
-.footer__socialss {
+.footer__startup--list {
   display: grid;
-  gap: 35px; /* отступ между элементами */
+  gap: 35px;
 }
-// .footer__socialss li {
-//   flex-basis: calc((100% - 1 * 44px) / 2);
-// }
-// .footer__socialss li:last-child {
-//   flex-basis: calc(100% - 44px); /* ширина на всю ширину контейнера с учетом отступа */
-.footer__socialss li:last-child {
-  grid-column: span 2; /* занимает две колонки (на всю ширину контейнера) */
+.footer__startup--list li:last-child {
+  grid-column: span 2;
 }
 
 .containerr {
@@ -90,15 +123,35 @@
   }
   &__container {
     display: flex;
-    background-color: var(--main-color);
+    background-color: gray;
   }
   &__content--box {
     display: flex;
     width: 100%;
-    // justify-content: space-around;
     flex-wrap: nowrap;
   }
   &__logo {
     display: block;
+  }
+  &__second--box {
+    display: flex;
+    margin-left: auto;
+    gap: 141px;
+  }
+}
+
+.footer__startup {
+  &--head {
+    margin-bottom: 8.8px;
+    color: white;
+    font-size: 24px;
+
+    font-weight: 700;
+    line-height: 30px;
+  }
+
+  &--list {
+    display: grid;
+    gap: 35px;
   }
 }
