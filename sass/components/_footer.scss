@@ -1,19 +1,16 @@
-.footer__container {
-  display: flex;
-  background-color: grey;
-}
-.footer__about {
-  // width: 525px;
-  background-color: aliceblue;
-  padding-right: 30px;
-}
 .footer__company {
   max-width: 420px;
-
   color: #333333;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
+  &--about {
+    margin-top: 30px;
+  }
+
+  &--copy {
+    margin-top: 69px;
+  }
 }
 
 .footer__socials {
@@ -39,27 +36,12 @@
   font-style: normal;
 }
 
-
-
 .footer__startups {
   // margin-left: auto;
 }
 .right-box {
   display: flex;
   gap: 142px;
-}
-
-.footer__block {
-  display: block;
-  width: 100%;
-  background-color: saddlebrown;
-}
-
-.footer__content--block {
-  display: flex;
-  width: 100%;
-  // justify-content: space-around;
-  flex-wrap: nowrap;
 }
 
 .tel__boxxx {
@@ -86,11 +68,6 @@
   grid-column: span 2; /* занимает две колонки (на всю ширину контейнера) */
 }
 
-.footer__block {
-  // width: 1770px;
-  display: block;
-}
-
 .containerr {
   padding-left: 75px;
   padding-right: 75px;
@@ -103,4 +80,25 @@
   padding-bottom: 25px;
   background-color: bisque;
   margin: 0 auto;
+}
+
+.footer {
+  &__block {
+    display: block;
+    width: 100%;
+    background-color: var(--main-color);
+  }
+  &__container {
+    display: flex;
+    background-color: var(--main-color);
+  }
+  &__content--box {
+    display: flex;
+    width: 100%;
+    // justify-content: space-around;
+    flex-wrap: nowrap;
+  }
+  &__logo {
+    display: block;
+  }
 }

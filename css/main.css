@@ -483,24 +483,18 @@ body {
   line-height: 32.5px;
 }
 
-.footer__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: grey;
-}
-
-.footer__about {
-  background-color: aliceblue;
-  padding-right: 30px;
-}
-
 .footer__company {
   max-width: 420px;
   color: #333333;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
+}
+.footer__company--about {
+  margin-top: 30px;
+}
+.footer__company--copy {
+  margin-top: 69px;
 }
 
 .footer__socials {
@@ -541,21 +535,6 @@ body {
   gap: 142px;
 }
 
-.footer__block {
-  display: block;
-  width: 100%;
-  background-color: saddlebrown;
-}
-
-.footer__content--block {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-}
-
 .tel__boxxx {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -580,10 +559,6 @@ body {
   grid-column: span 2; /* занимает две колонки (на всю ширину контейнера) */
 }
 
-.footer__block {
-  display: block;
-}
-
 .containerr {
   padding-left: 75px;
   padding-right: 75px;
@@ -601,4 +576,27 @@ body {
   padding-bottom: 25px;
   background-color: bisque;
   margin: 0 auto;
+}
+
+.footer__block {
+  display: block;
+  width: 100%;
+  background-color: var(--main-color);
+}
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: var(--main-color);
+}
+.footer__content--box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+.footer__logo {
+  display: block;
 }/*# sourceMappingURL=main.css.map */
