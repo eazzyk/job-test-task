@@ -7,73 +7,173 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header>
-      <div class="header__container container">
-        <div class="header__logo">LOGO</div>
+    <header class="header">
+      <section class="header__block">
+        <div class="header__container">
+          <a href="#" class="header__logo">
+            <svg class="btn" width="266" height="66">
+              <use href="./images/sprite.svg#icon-logo-header"></use>
+            </svg>
+          </a>
 
-        <nav class="header__nav">
-          <a href="">Чому ми?</a>
-          <a href="">Партнери</a>
-          <a href="">Благодійність</a>
-          <a href="">Про нас</a>
-          <a href="">Drupal</a>
-        </nav>
-        <div class="header__contacts">
-          <ul class="header__socials list">
-            <li>FB</li>
-            <li>INST</li>
-            <li>VIB</li>
-          </ul>
-          <div class="header__tel">
-            <p>Пн-Пт з 10 до 18</p>
-            <a href="tel:+0800759759">0 (800) 759-759</a>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li><a href="" class="nav__list--link">Чому ми?</a></li>
+              <li><a href="" class="nav__list--link">Партнери</a></li>
+              <li><a href="" class="nav__list--link">Благодійність</a></li>
+              <li><a href="" class="nav__list--link">Про нас</a></li>
+              <li><a href="" class="nav__list--link">Drupal</a></li>
+            </ul>
+          </nav>
+          <div class="header__contacts">
+            <ul class="header__contacts--list">
+              <li>
+                <a href="#" class="header__contacts--btn">
+                  <svg class="btn" width="35" height="35">
+                    <use href="./images/sprite.svg#icon-facebook-header"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="header__contacts--btn">
+                  <svg class="btn" width="35" height="35">
+                    <use href="./images/sprite.svg#icon-inst-header"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="header__contacts--btn">
+                  <svg class="btn" width="35" height="35">
+                    <use href="./images/sprite.svg#icon-viber-header"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <div class="header__tel">
+              <p class="header__tel--schedule">Пн-Пт з 10 до 18</p>
+              <div class="header__tel--box">
+                <a href="tel:+0800759759" class="header__tel--number">0 (800) 759-759</a>
+                <a href="">
+                  <svg class="btn" width="24" height="24">
+                    <use href="./images/sprite.svg#icon-header-arrow"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </header>
     <footer>
-      <div class="footer__container container">
-        <section class="footer__about">
-          <div class="footer__logo">LOGO</div>
-          <p class="footer__company">
-            Компанія працює з 2008 року під брендом Глянець. Ми використовуємо для роботи лише
-            власну нерухомість, техніку та сервери. Виконуємо всі замовлення виключно своїми
-            ресурсами, залучаємо до роботи лише штатних працівників. Завдяки цьому нас цінують як
-            надійного партнера та підрядника.
-          </p>
-          <p>&copy; 2023 Глянець™ — Розробка та підтримка сайтів</p>
-        </section>
-        <section class="footer__contacts">
-          <div>
-            <h3>Зателефонуйте нам</h3>
-            <div class="footer__box">
-              <a href="tel:+0800759759">0 (800) 759-759</a>
-              <p>доб. 103</p>
-            </div>
-            <a href="mailto:order@glyanec.net">order@glyanec.net</a>
-            <ul class="footer__socials">
-              <li>FB</li>
-              <li>INST</li>
-              <li>GM</li>
-              <li>TW</li>
-            </ul>
-          </div>
-        </section>
-        <section class="footer__adress-box">
-          <div>
-            <h3>Адреса нашого офісу</h3>
-            <address>
-              <a href="https://maps.app.goo.gl/YhRvnBHdaX8VpNov7" class="footer__adress">
-                <span>21016, Україна, м. Вінниця,</span>
-                <span>с. Зарванці,</span>
-                <span>вул. Архітектурна, 5А</span>
+      <section class="footer__block">
+        <div class="footer__container">
+          <div class="footer__content--block">
+            <div class="footer__cont1">
+              <a href="#">
+                <svg class="btn" width="266" height="66">
+                  <use href="./images/sprite.svg#icon-logo-footer"></use>
+                </svg>
               </a>
-            </address>
+              <div>
+                <p class="footer__company">
+                  Компанія працює з 2008 року під брендом Глянець. Ми використовуємо для роботи лише
+                  власну нерухомість, техніку та сервери. Виконуємо всі замовлення виключно своїми
+                  ресурсами, залучаємо до роботи лише штатних працівників. Завдяки цьому нас цінують
+                  як надійного партнера та підрядника.
+                </p>
 
-            <a href="mailto:order@glyanec.net">order@glyanec.net</a>
+                <p>&copy; 2023 Глянець™ — Розробка та підтримка сайтів</p>
+              </div>
+            </div>
+
+            <div class="footer__second--box">
+              <div class="footer__soc2">
+                <h3>Зателефонуйте нам</h3>
+
+                <div class="tel__boxxx">
+                  <a href="tel:+0800759759">0 (800) 759-759</a>
+                  <p>доб. 103</p>
+                </div>
+
+                <a href="mailto:order@glyanec.net">order@glyanec.net</a>
+
+                <ul class="footer__socials">
+                  <li>
+                    <a href="#">
+                      <svg class="btn" width="22" height="22">
+                        <use href="./images/sprite.svg#icon-facebook-footer"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="btn" width="22" height="22">
+                        <use href="./images/sprite.svg#icon-inst-footer"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="btn" width="22" height="22">
+                        <use href="./images/sprite.svg#icon-google-footer"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="btn" width="22" height="22">
+                        <use href="./images/sprite.svg#icon-twitter-footer"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="footer__form3">
+                <h3>Адреса нашого офісу</h3>
+
+                <address>
+                  <a href="https://maps.app.goo.gl/YhRvnBHdaX8VpNov7" class="footer__adress">
+                    <span>21016, Україна, м. Вінниця,</span>
+                    <span>с. Зарванці,</span>
+                    <span>вул. Архітектурна, 5А</span>
+                  </a>
+                </address>
+
+                <p>GPS: 49.234384, 28.394405</p>
+              </div>
+
+              <div class="footer__form4">
+                <h3>Наші стартапи</h3>
+
+                <ul class="footer__socialss">
+                  <li>
+                    <a href="#">
+                      <svg class="btn" width="94" height="58">
+                        <use href="./images/sprite.svg#icon-startup-footer1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="btn" width="195" height="59">
+                        <use href="./images/sprite.svg#icon-startup-footer2"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="btn" width="206" height="33">
+                        <use href="./images/sprite.svg#icon-startup-footer3"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
     </footer>
   </body>
 </html>
